@@ -6,7 +6,7 @@ from pyannote.audio import Pipeline
 from pyannote.audio.pipelines.utils.hook import ProgressHook
 
 pln = Pipeline.from_pretrained(
-    "pyannote/speaker-diarization-3.1", use_auth_token="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"
+    "pyannote/speaker-diarization-3.1", use_auth_token=""
 )
 ic(type(pln))
 ic(pln)
